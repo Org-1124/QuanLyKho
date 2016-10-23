@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataProvider.cs" />
     <Compile Include="HangHoaDAO.cs" />
     <Compile Include="HoaDonNhapDAO.cs" />
     <Compile Include="HoaDonXuatDAO.cs" />

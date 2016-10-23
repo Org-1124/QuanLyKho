@@ -11,3 +11,4 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Propertie
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
