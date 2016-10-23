@@ -1,0 +1,4 @@
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DAO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DAO.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.pdb
