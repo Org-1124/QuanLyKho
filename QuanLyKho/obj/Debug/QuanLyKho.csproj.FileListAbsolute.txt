@@ -12,3 +12,6 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.Ge
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
