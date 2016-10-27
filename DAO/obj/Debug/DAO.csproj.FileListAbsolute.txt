@@ -2,3 +2,10 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DAO.dll
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DAO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.dll
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.pdb
+D:\Work_Group\QuanLyKho\DAO\bin\Debug\DAO.dll
+D:\Work_Group\QuanLyKho\DAO\bin\Debug\DAO.pdb
+D:\Work_Group\QuanLyKho\DAO\bin\Debug\DTO.dll
+D:\Work_Group\QuanLyKho\DAO\bin\Debug\DTO.pdb
+D:\Work_Group\QuanLyKho\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Work_Group\QuanLyKho\DAO\obj\Debug\DAO.dll
+D:\Work_Group\QuanLyKho\DAO\obj\Debug\DAO.pdb

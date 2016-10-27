@@ -3,3 +3,7 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\bin\Debug\DTO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.dll
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Work_Group\QuanLyKho\DTO\bin\Debug\DTO.dll
+D:\Work_Group\QuanLyKho\DTO\bin\Debug\DTO.pdb
+D:\Work_Group\QuanLyKho\DTO\obj\Debug\DTO.dll
+D:\Work_Group\QuanLyKho\DTO\obj\Debug\DTO.pdb

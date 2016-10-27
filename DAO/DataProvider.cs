@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -12,7 +11,7 @@ namespace DAO
     {
         public static SqlConnection KetNoi()
         {
-            string sChuoi = @"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLyTruongHoc;Integrated Security=True";
+            string sChuoi = @"Data Source=DESKTOP-L8JMH5Q\SQLEXPRESS;Initial Catalog=QuanLyKho;Integrated Security=True";
             SqlConnection con = new SqlConnection(sChuoi);
             con.Open();
             return con;
@@ -33,6 +32,5 @@ namespace DAO
             SqlCommand com = new SqlCommand(sTruyVan, con);
             com.ExecuteNonQuery();
         }
-
     }
 }

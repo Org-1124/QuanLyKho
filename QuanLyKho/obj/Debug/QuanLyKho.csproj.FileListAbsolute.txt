@@ -12,6 +12,22 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.Ge
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
-D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
-D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
-D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\DTO.dll
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
+D:\Work_Group\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmKhachHang.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMain.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDangNhap.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmTroGiup.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\Work_Group\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
