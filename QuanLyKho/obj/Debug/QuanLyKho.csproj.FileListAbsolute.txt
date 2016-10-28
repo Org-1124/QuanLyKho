@@ -15,3 +15,16 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojRes
 D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
 D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMain.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDangNhap.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmTroGiup.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\Project\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+D:\Project\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
