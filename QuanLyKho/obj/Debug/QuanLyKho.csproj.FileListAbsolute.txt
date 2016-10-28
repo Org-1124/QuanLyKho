@@ -12,3 +12,9 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.Ge
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DTO.dll
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
+D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
