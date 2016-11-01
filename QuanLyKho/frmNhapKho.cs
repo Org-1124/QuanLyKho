@@ -106,7 +106,7 @@ namespace QuanLyKho
             txtSDT.Text = "";
             cboCC.Text = null;
         }
-
+        
         private void btnThem_Click(object sender, EventArgs e)
         {
             Xoatxt();
@@ -231,7 +231,7 @@ namespace QuanLyKho
                 MessageBox.Show("Bạn chưa chọn hóa đơn");
                 return;
             }
-            x = 1;
+            x = 2;
             dgvchitiet.ReadOnly = false;
             lc = LuaChon.Sua;
             AnButton();
@@ -301,11 +301,16 @@ namespace QuanLyKho
             }
             HoaDonNhapDAO.Xoa(hd);
         }
-
         private void dgvchitiet_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.ColumnIndex == 1)
             {
+                if(x==1)
+                {
+                    try { dgvchitiet.Rows.RemoveAt(e.RowIndex); }
+                    catch { }
+                    return;
+                }
                 ChiTietNhapDTO hh = new ChiTietNhapDTO();
                 hh.TenHang = dgvchitiet.Rows[e.RowIndex].Cells[2].Value.ToString();
                 hh.MaHDNhap = int.Parse(txtMaHD.Text.ToString());
@@ -318,13 +323,12 @@ namespace QuanLyKho
                     LoadChiTiet(int.Parse(txtMaHD.Text.ToString()));
                     HoaDonNhapDTO hd = new HoaDonNhapDTO();
                     hd.MaHDNhap = int.Parse(txtMaHD.Text.ToString());
-                    if (dgvchitiet.RowCount == 0) 
-                    {
-                        HoaDonNhapDAO.Xoa(hd);
-                        LoadDuLieu();
-                    }
                 }
-                catch { }
+                catch
+                {
+                    try { dgvchitiet.Rows.RemoveAt(e.RowIndex); }
+                    catch { }
+                }
             }
             else
             {
@@ -340,6 +344,24 @@ namespace QuanLyKho
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             btnTimKiem_Click(sender, e);
+        }
+
+        private void dgvchitiet_CellErrorTextChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 3) MessageBox.Show("sdf");
+            if (e.ColumnIndex == 2) MessageBox.Show("sdf");
+            if (e.ColumnIndex == 4) MessageBox.Show("sdf");
+        }
+
+        private void btnHuy_Click_1(object sender, EventArgs e)
+        {
+            Xoatxt();
+            HienButton();
+            ReadOnly();
+            DataTable dt = HoaDonNhapDAO.LoadChiTiet(999999);
+            dgvchitiet.DataSource = dt;
+            dgvchitiet.AllowUserToAddRows = false;
+            x = 0;
         }
 
     }
