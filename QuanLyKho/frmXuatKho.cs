@@ -285,10 +285,10 @@ namespace QuanLyKho
             try
             {
                 int mahh = 0;
-                DataGridViewRow dr = dgvChiTietXuat.SelectedRows[0];
+                //DataGridViewRow dr = dgvChiTietXuat.SelectedRows[0];
                 int.TryParse(cboTenSanPham.SelectedValue.ToString(), out mahh);
                 DataTable t = ChiTietXuatDAO.TinhDonGia(mahh);
-                int.TryParse(cboTenSanPham.SelectedValue.ToString(), out mahh);
+               // int.TryParse(cboTenSanPham.SelectedValue.ToString(), out mahh);
                 txtDonGiaCTXH.Text = t.Rows[0]["GiaXuat"].ToString();
             }
             catch
