@@ -23,7 +23,7 @@ namespace DAO
         public static bool ThemCTX(ChiTietXuatDTO ctx)
         {
 
-            string sTruyVan = string.Format("Insert into tblChiTietXuat(MaHDXuat,MaHangHoa,SoLuong,DonGia) values ({0},'{1}','{2}','{3}')", ctx.MaHDXuat, ctx.MaHangHoa, ctx.SoLuong, ctx.DonGia);
+            string sTruyVan = string.Format("Insert into tblChiTietXuat(MaHDXuat,MaHangHoa,SoLuong,DonGia) values ({0},'{1}','{2}','{3}') update tblHoaDonXuat set TongTien = TongTien + {4}*{5} where MaHDXuat={6}", ctx.MaHDXuat, ctx.MaHangHoa, ctx.SoLuong, ctx.DonGia,ctx.SoLuong,ctx.DonGia,ctx.MaHDXuat);
             con = DataProvider.KetNoi();
             DataTable dt = DataProvider.LayDataTable(sTruyVan, con);
             DataProvider.DongKetNoi(con);
@@ -36,7 +36,7 @@ namespace DAO
             try
             {
                 con = DataProvider.KetNoi();
-                string sTruyVan = string.Format("Update tblChiTietXuat set SoLuong='{0}',DonGia = '{1}' where MaHDXuat={2} and MaHangHoa = '{3}'", ctx.SoLuong, ctx.DonGia, ctx.MaHDXuat, ctx.MaHangHoa);
+                string sTruyVan = string.Format("Update tblChiTietXuat set SoLuong='{0}',DonGia = '{1}' where MaHDXuat={2} and MaHangHoa = '{3}' update tblHoaDonXuat  set TongTien = TongTien+a.SoLuong*a.DonGia from(select ctx.SoLuong, ctx.DonGia from tblChiTietXuat ctx) a where tblHoaDonXuat.MaHDXuat ={4}", ctx.SoLuong, ctx.DonGia, ctx.MaHDXuat, ctx.MaHangHoa, ctx.MaHDXuat);
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
                 DataProvider.DongKetNoi(con);
                 return true;

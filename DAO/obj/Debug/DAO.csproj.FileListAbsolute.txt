@@ -5,3 +5,17 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DTO.dll
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\bin\Debug\DTO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\bin\Debug\DAO.dll
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\bin\Debug\DAO.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\bin\Debug\DTO.dll
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\bin\Debug\DTO.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\obj\Debug\DAO.dll
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\obj\Debug\DAO.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\bin\Debug\DAO.dll
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\bin\Debug\DAO.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\bin\Debug\DTO.dll
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\bin\Debug\DTO.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\obj\Debug\DAO.dll
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\DAO\obj\Debug\DAO.pdb

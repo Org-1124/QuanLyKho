@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DAO;
 using DTO;
+using System.IO;
 namespace QuanLyKho
 {
     public partial class frmMenu : Form
@@ -21,6 +22,7 @@ namespace QuanLyKho
         {
             InitializeComponent();
             an();
+            txtmatkhau.UseSystemPasswordChar = true;
         }
         public void remove()
         {
@@ -52,7 +54,7 @@ namespace QuanLyKho
             f.Dock = DockStyle.Fill;
             tabPage3.Controls.Add(f);
             f.Visible = true;
-            tabPage2.Text = "Xuất Kho";
+            tabPage3.Text = "Xuất Kho";
             tabControl1.TabPages.Add(tabPage3);
         }
 
@@ -65,7 +67,7 @@ namespace QuanLyKho
             f.Dock = DockStyle.Fill;
             tabPage4.Controls.Add(f);
             f.Visible = true;
-            tabPage2.Text = "Thống Kê";
+            tabPage4.Text = "Thống Kê";
             tabControl1.TabPages.Add(tabPage4);
         }
 
@@ -84,7 +86,15 @@ namespace QuanLyKho
 
         private void checkmk_CheckedChanged(object sender, EventArgs e)
         {
-            txtmatkhau.UseSystemPasswordChar = checkmk.Checked ? false : true;
+            if(txtmatkhau.UseSystemPasswordChar ==true)
+            {
+                txtmatkhau.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtmatkhau.UseSystemPasswordChar = true;
+            }
+            //txtmatkhau.UseSystemPasswordChar = true;
         }
 
         private void btndangnhap_Click(object sender, EventArgs e)
@@ -136,6 +146,22 @@ namespace QuanLyKho
             btnThongKe.Enabled = true;
             btnTaiKhoan.Enabled = true;
             btnTroGiup.Enabled = true;
+        }
+
+        private void hướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string HelpPath;
+            HelpPath = Application.StartupPath + @"\Helps\Help.docx";
+            if (File.Exists(HelpPath))
+            {
+                System.Diagnostics.ProcessStartInfo proStarInfor = new System.Diagnostics.ProcessStartInfo();
+                HelpPath = "\"" + HelpPath + "\"";
+                System.Diagnostics.Process.Start("WINWORD.EXE", HelpPath);
+            }
+            else
+                MessageBox.Show("File trợ giúp không tồn tại. " + System.Environment.NewLine +
+                    "Kiểm tra lại đường dẫn: " + HelpPath, "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     } 
 }   

@@ -17,3 +17,41 @@ D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
 D:\Data\HocTap\Tai lieu\GitHub\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMenu.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\DAO.dll
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\DTO.dll
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\DAO.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\bin\Debug\DTO.pdb
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmMenu.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmTroGiup.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\DELL PC\Desktop\baitap_nhom\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\DAO.dll
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\DTO.dll
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\DAO.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\bin\Debug\DTO.pdb
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmDoiMatKhau.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmMenu.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmNhapKho.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmThemTaiKhoan.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmThongKe.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmTroGiup.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.frmXuatKho.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\TuanAnh\Desktop\QuanLyKho(ok)\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache

@@ -95,6 +95,7 @@
             this.dgvHoaDon.MultiSelect = false;
             this.dgvHoaDon.Name = "dgvHoaDon";
             this.dgvHoaDon.ReadOnly = true;
+            this.dgvHoaDon.RowHeadersVisible = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.dgvHoaDon.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvHoaDon.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -322,6 +323,7 @@
             this.dgvChiTietXuat.MultiSelect = false;
             this.dgvChiTietXuat.Name = "dgvChiTietXuat";
             this.dgvChiTietXuat.ReadOnly = true;
+            this.dgvChiTietXuat.RowHeadersVisible = false;
             this.dgvChiTietXuat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChiTietXuat.Size = new System.Drawing.Size(941, 88);
             this.dgvChiTietXuat.TabIndex = 1;

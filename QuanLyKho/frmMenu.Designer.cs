@@ -36,13 +36,15 @@
             this.thêmTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đổiMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTroGiup = new System.Windows.Forms.ToolStripMenuItem();
+            this.hướngDẫnSửDụngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txttaikhoan = new System.Windows.Forms.GroupBox();
             this.btnthoat = new System.Windows.Forms.Button();
+            this.txttk = new System.Windows.Forms.TextBox();
             this.btndangnhap = new System.Windows.Forms.Button();
             this.txtmatkhau = new System.Windows.Forms.TextBox();
-            this.txttk = new System.Windows.Forms.TextBox();
             this.checkmk = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -112,10 +114,26 @@
             // 
             // btnTroGiup
             // 
+            this.btnTroGiup.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hướngDẫnSửDụngToolStripMenuItem,
+            this.thôngTinSảnPhẩmToolStripMenuItem});
             this.btnTroGiup.Name = "btnTroGiup";
             this.btnTroGiup.Size = new System.Drawing.Size(64, 20);
             this.btnTroGiup.Text = "Trợ Giúp";
             this.btnTroGiup.Click += new System.EventHandler(this.trợGiúpToolStripMenuItem_Click);
+            // 
+            // hướngDẫnSửDụngToolStripMenuItem
+            // 
+            this.hướngDẫnSửDụngToolStripMenuItem.Name = "hướngDẫnSửDụngToolStripMenuItem";
+            this.hướngDẫnSửDụngToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.hướngDẫnSửDụngToolStripMenuItem.Text = "Hướng dẫn sử dụng";
+            this.hướngDẫnSửDụngToolStripMenuItem.Click += new System.EventHandler(this.hướngDẫnSửDụngToolStripMenuItem_Click);
+            // 
+            // thôngTinSảnPhẩmToolStripMenuItem
+            // 
+            this.thôngTinSảnPhẩmToolStripMenuItem.Name = "thôngTinSảnPhẩmToolStripMenuItem";
+            this.thôngTinSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.thôngTinSảnPhẩmToolStripMenuItem.Text = "Thông tin sản phẩm";
             // 
             // tabControl1
             // 
@@ -166,6 +184,13 @@
             this.btnthoat.UseVisualStyleBackColor = true;
             this.btnthoat.Click += new System.EventHandler(this.btnthoat_Click);
             // 
+            // txttk
+            // 
+            this.txttk.Location = new System.Drawing.Point(203, 67);
+            this.txttk.Name = "txttk";
+            this.txttk.Size = new System.Drawing.Size(195, 20);
+            this.txttk.TabIndex = 3;
+            // 
             // btndangnhap
             // 
             this.btndangnhap.Location = new System.Drawing.Point(203, 185);
@@ -182,13 +207,6 @@
             this.txtmatkhau.Name = "txtmatkhau";
             this.txtmatkhau.Size = new System.Drawing.Size(195, 20);
             this.txtmatkhau.TabIndex = 4;
-            // 
-            // txttk
-            // 
-            this.txttk.Location = new System.Drawing.Point(203, 67);
-            this.txttk.Name = "txttk";
-            this.txttk.Size = new System.Drawing.Size(195, 20);
-            this.txttk.TabIndex = 3;
             // 
             // checkmk
             // 
@@ -229,7 +247,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
             this.Text = "frmMenu";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -261,6 +279,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem thêmTàiKhoảnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
-
+        private System.Windows.Forms.ToolStripMenuItem hướngDẫnSửDụngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinSảnPhẩmToolStripMenuItem;
     }
 }

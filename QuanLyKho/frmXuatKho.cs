@@ -185,15 +185,20 @@ namespace QuanLyKho
             kh.MaKhachHang = makh;
             int.TryParse(dr.Cells["Mã Xuất hàng"].Value.ToString(), out mahd);
             hdx.MaHDXuat = mahd;
-            try
+            if(DialogResult.Yes == MessageBox.Show("Bạn chắc không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
             {
-                KhachHangDAO.XoaKH(kh);
-                HoaDonXuatDAO.XoaHD(hdx);
+                try
+                {
+                    KhachHangDAO.XoaKH(kh);
+                    HoaDonXuatDAO.XoaHD(hdx);
+                    MessageBox.Show("Bạn đã xóa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);    
+                }
+                catch
+                {
+                    MessageBox.Show("Chưa xóa được mời làm lại ");
+                }
             }
-            catch
-            {
-                MessageBox.Show("Chưa xóa được mời làm lại ");
-            }
+            
             dgvHoaDon.DataSource = HoaDonXuatDAO.LoadDataHoaDonVaKhach();
         }
 

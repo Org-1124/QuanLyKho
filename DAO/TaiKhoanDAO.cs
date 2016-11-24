@@ -27,7 +27,7 @@ namespace DAO
         {
             try
             {
-                string sTruyVan = string.Format("insert into tblTaiKhoan values({0},{1})", tk.TaiKhoan, tk.MatKhau);
+                string sTruyVan = string.Format("insert into tblTaiKhoan values('{0}','{1}')", tk.TaiKhoan, tk.MatKhau);
                 con = DataProvider.KetNoi();
                 DataProvider.ThucThiTruyVan(sTruyVan, con);
                 DataProvider.DongKetNoi(con);
